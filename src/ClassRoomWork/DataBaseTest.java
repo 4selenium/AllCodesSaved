@@ -51,6 +51,7 @@ public class DataBaseTest {
         email.addTo("john2525zz@gmail.com");
         email.send();
         System.out.println("Email sent");
+        System.out.println("this is the changes I made");
 
         }
 }
