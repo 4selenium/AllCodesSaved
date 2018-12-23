@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestAll" parallel="tests">
+   <groups>
+        <run>
+            <include name="regressionqa"/>
+        </run>
+    </groups>
+
+    <test name="TestOnChrome" parallel="tests">
+        <parameter name="browser" value="Chrome"/>
+        <classes>
+            <class name="ClassRoomWork.TestNGPrcatise"/>
+
+
+
+        </classes>
+    </test>
+    <test name="TestOnFireFox" parallel="tests">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="ClassRoomWork.TestNGPrcatise"/>
+
+
+
+        </classes>
+    </test>
+
+</suite>

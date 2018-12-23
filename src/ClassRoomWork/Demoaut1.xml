@@ -1,0 +1,32 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestAll">
+
+
+    <test name="TestOnChrome" parallel="tests">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="Practise.Demoaut1"/>
+
+        </classes>
+
+
+
+
+    </test>
+    <test name="TestOnfirefox" parallel="tests">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="Practise.Demoaut1"/>
+
+        </classes>
+
+
+
+
+    </test>
+
+
+
+
+</suite>

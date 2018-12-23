@@ -16,16 +16,18 @@ public class Assignment5 {
         //*[@id="post-body-353459300542438954"]/div[1]/table/tbody/tr[2]/td[2]
         //*[@id="post-body-353459300542438954"]/div[1]/table/tbody/tr[3]/td[2]
 
-        String beforeXpath = "//*[@id='post-body-353459300542438954']/div[1]/table/tbody/tr[";
-        String afterXpath = "]/td[2]";
+        //String beforeXpath = "//*[@id='post-body-353459300542438954']/div[1]/table/tbody/tr[";
+        //String afterXpath = "]/td[2]";
+        System.out.println(driver.findElement(By.xpath("//table//tr[3]//td[2]")).getText());
 
-        for (int i = 2; i <= 3; i++) {
+        /*for (int i = 2; i <= 3; i++) {
             String actalXpath = beforeXpath + i + afterXpath;
             //System.out.println(actalXpath);
 
             WebElement element = driver.findElement(By.xpath(actalXpath));
             System.out.println(element.getText());
         }
+        */
        // driver.close();
 
     }
