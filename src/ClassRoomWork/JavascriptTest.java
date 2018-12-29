@@ -44,6 +44,7 @@ public class JavascriptTest {
         WebElement myElmnt =driver.findElement(By.xpath("//*[@name='q']"));
         JavascriptExecutor js = (JavascriptExecutor) driver;
         //js.executeScript("arguments[0].click()", myElmnt);﻿
+        System.out.println(" we could not finish the test ");
 
 
 
