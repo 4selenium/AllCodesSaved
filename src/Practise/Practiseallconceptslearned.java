@@ -31,6 +31,7 @@ public class Practiseallconceptslearned {
         driver.get("http://www.google.com");
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(3000, TimeUnit.MILLISECONDS);
+        System.out.println(" this is just a test");
 
     }
 
@@ -217,6 +218,7 @@ public class Practiseallconceptslearned {
 
 
     }
+
 
 
 
