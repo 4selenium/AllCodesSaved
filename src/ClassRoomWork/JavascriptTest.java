@@ -45,6 +45,7 @@ public class JavascriptTest {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         //js.executeScript("arguments[0].click()", myElmnt);﻿
         System.out.println(" we could not finish the test ");
+        System.out.println(" we could not finish the test ");
 
 
 
