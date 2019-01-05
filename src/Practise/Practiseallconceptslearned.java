@@ -67,6 +67,7 @@ public class Practiseallconceptslearned {
         driver.findElement(By.xpath("//a[contains(text(),'Sample JavaScrpt page to Show month and Show Alert')]")).click();
         driver.findElement(By.xpath("//button[@id='Month']")).click();
         wait1();
+        //this is just for trail 
 
 
     }
