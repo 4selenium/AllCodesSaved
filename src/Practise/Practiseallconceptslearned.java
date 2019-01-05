@@ -33,6 +33,7 @@ public class Practiseallconceptslearned {
         driver.manage().timeouts().implicitlyWait(3000, TimeUnit.MILLISECONDS);
         System.out.println(" this is just a test");
         System.out.println(" this is just a test2");
+        //Thank you Jesus 
 
     }
 
