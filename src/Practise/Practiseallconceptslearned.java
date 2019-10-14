@@ -33,6 +33,8 @@ public class Practiseallconceptslearned {
         driver.manage().timeouts().implicitlyWait(3000, TimeUnit.MILLISECONDS);
         System.out.println(" this is just a test");
         System.out.println(" this is just a test2");
+        //Thank you Jesus 
+          //Thank you Jesus2
 
     }
 
@@ -67,6 +69,7 @@ public class Practiseallconceptslearned {
         driver.findElement(By.xpath("//a[contains(text(),'Sample JavaScrpt page to Show month and Show Alert')]")).click();
         driver.findElement(By.xpath("//button[@id='Month']")).click();
         wait1();
+        //this is just for trial,sorry for spelling mistake
 
 
     }
@@ -214,6 +217,9 @@ public class Practiseallconceptslearned {
 @Test
     public void myTest9(){
         driver.get("http://www.naukri.com");
+    System.out.println("This is my commit");
+    System.out.println("This is my commit on 05Jan19");
+
 }
 
 
